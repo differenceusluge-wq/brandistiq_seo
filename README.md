@@ -1,18 +1,32 @@
-# BrandistiQ — Web • Apps • AI
+# BrandistiQ Site v2
 
-Static BrandistiQ website, ready for GitHub + Netlify.
+Ovo je proširena static verzija BrandistiQ weba.
 
-## Deploy
-- Repository root contains `index.html`.
-- `netlify.toml` sets publish directory to `.`.
-- No build command is required.
+## Uključeno
+- Početna stranica
+- Usluge
+- Rješenja
+- Projekti / case studies
+- Vodiči
+- Alati
+- Kontakt
+- O nama
+- Privatnost / kolačići početni predlošci
+- robots.txt
+- sitemap.xml
+- shared responsive CSS i JS
+- canonical, Open Graph i osnovni JSON-LD
 
-## Contact form
-The contact page uses a native Netlify Form named `brandistiq-contact`, with honeypot spam protection and an AJAX success state. After the first production deploy, check **Netlify → Forms** to confirm the form is detected.
+## Važno prije produkcije
+1. Zamijeniti placeholder pravne tekstove stvarnim pravnim tekstovima.
+2. Kontakt formu povezati sa stvarnim form backendom/serverless funkcijom i anti-spam zaštitom.
+3. Dodati stvarni GA4/Search Console ID.
+4. Dodati favicon i social preview sliku.
+5. Provjeriti sve činjenice/statistike prije objave (npr. broj projekata).
+6. Optimizirati slike u WebP/AVIF.
+7. Testirati Lighthouse/Core Web Vitals i sve linkove.
+8. Dodati stvarne projektne screenshotove gdje su dostupni.
 
-## Portfolio
-- MajstorGuard / Smart-Troškovnik
-- DriveQ
-- Novac bez granica
-- Pro in mont jedan
 
+## Portfolio update
+Portfolio je ažuriran stvarnim projektima: MajstorGuard / Smart-Troškovnik, DriveQ, Novac bez granica i Pro in mont jedan. DriveQ i Pro in mont koriste javno dostupne slike s originalnih domena putem HTTPS URL-a; slike nisu lokalno kopirane zbog ograničenja runtime okruženja. Prije produkcije preporučuje se lokalno hostanje/optimizacija slika ako vlasnik projekta odobri njihovo korištenje.
