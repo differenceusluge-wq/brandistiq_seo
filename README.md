@@ -1,20 +1,18 @@
-# BrandistiQ — web stranica
+# BrandistiQ — Web • Apps • AI
 
-Staticki HTML/CSS/JS projekt spreman za GitHub Pages ili Netlify.
+Static BrandistiQ website, ready for GitHub + Netlify.
 
-## Najbrze pokretanje
+## Deploy
+- Repository root contains `index.html`.
+- `netlify.toml` sets publish directory to `.`.
+- No build command is required.
 
-Otvorite `index.html` direktno u browseru ili pokrenite lokalni server.
-
-Za GitHub: nije potrebno rucno kreirati foldere. U GitHub repozitoriju odaberite **Add file → Upload files** i povucite cijeli sadrzaj ove mape u prozor za upload. GitHub ce automatski zadrzati strukturu mapa.
+## Contact form
+The contact page uses a native Netlify Form named `brandistiq-contact`, with honeypot spam protection and an AJAX success state. After the first production deploy, check **Netlify → Forms** to confirm the form is detected.
 
 ## Portfolio
-- Smart-Troskovnik / MajstorGuard
+- MajstorGuard / Smart-Troškovnik
 - DriveQ
 - Novac bez granica
 - Pro in mont jedan
 
-Fotografije dostupne preko javnih projektnih domena ostavljene su kao vanjski HTTPS izvori gdje lokalna kopija nije bila dostupna.
-
-
-Portfolio v4: homepage and portfolio now show all four selected projects. Smart-Troškovnik and Novac bez granica use local product/UI visuals based on their live public pages; DriveQ and Pro in mont use live project imagery.
