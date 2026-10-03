@@ -34,3 +34,11 @@ Portfolio sada koristi lokalne fotografije koje su isporučene uz projekt, bez o
 - Pro in mont jedan — 3 fotografije
 
 Na `/projekti/` i na početnoj stranici svaka kartica prikazuje naslovnu fotografiju i izravnu poveznicu na stvarnu web lokaciju. Klik na „Pogledaj projekt” otvara zasebnu case-study stranicu s naslovnom fotografijom, kratkim opisom i cijelom galerijom fotografija tog projekta.
+
+
+## Portfolio additions (V12)
+- Dovrši Zagreb — naslovna fotografija + opis projekta
+- Gloss & Glow — naslovna stranica + galerija
+- ModularHome — naslovna stranica + galerija
+
+All new portfolio images are bundled locally under `public/assets/projects/` so the Netlify deployment does not depend on external image URLs.
