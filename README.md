@@ -22,3 +22,15 @@ Na Netlifyju postavite:
 - Web aplikacija: 600 €
 - Napredna aplikacija: 900 €
 - AI rješenje: 400 €
+
+
+## Portfolio fotografije — V11 update
+
+Portfolio sada koristi lokalne fotografije koje su isporučene uz projekt, bez oslanjanja na vanjske image URL-ove.
+
+- MajstorGuard / Smart-Troškovnik — 5 fotografija
+- DriveQ — 3 fotografije
+- Novac bez granica — 5 fotografija
+- Pro in mont jedan — 3 fotografije
+
+Na `/projekti/` i na početnoj stranici svaka kartica prikazuje naslovnu fotografiju i izravnu poveznicu na stvarnu web lokaciju. Klik na „Pogledaj projekt” otvara zasebnu case-study stranicu s naslovnom fotografijom, kratkim opisom i cijelom galerijom fotografija tog projekta.
